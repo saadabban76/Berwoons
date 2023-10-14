@@ -12,6 +12,7 @@
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^4.8.1-snapshot.1",
     "recoil": "^0.7.7"
   },
   "devDependencies": {
