@@ -6,7 +6,7 @@ const Contactus = () => {
   return (
     <main className="bg-white flex py-10 justify-center items-center">
       {/* image */}
-      <div className="bg-black hidden sm:flex-[0.9] xl:flex-[0.6] border-4
+      <div className="bg-black hidden sm:inline-flex flex-[0.9] xl:flex-[0.6] border-4
        border-[#ECC127]">
         <Image className="w-full h-full" src={contact} alt="contact" />
       </div>
