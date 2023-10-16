@@ -1,3 +1,4 @@
+import Reveal from "@/utils/Reveal";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { WiDirectionUpRight } from "react-icons/wi";
@@ -14,7 +15,14 @@ const ServiceCard = (props: Prop): JSX.Element => {
      border-gray-700 rounded-lg xl:max-w-[300px] xl:w-auto sm:w-[240px] w-[90%]
       shadow-2xl"
     >
-      <Image className="hover:blur-sm rounded-t-lg h-full" src={props.src} alt="" />
+      <Reveal width="100%">
+        <Image
+          className="hover:blur-sm rounded-t-lg h-full"
+          src={props.src}
+          alt=""
+        />
+      </Reveal>
+
       <div
         className="bg-highlight cursor-pointer hover:text-[#1C64F2] blur-0 text-black 
         font-semibold text-[1.3rem] flex w-full

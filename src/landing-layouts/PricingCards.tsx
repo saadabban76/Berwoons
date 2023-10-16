@@ -1,5 +1,5 @@
 import React from "react";
-import PricingCard from "./PricingCard";
+import PricingCard from "../components/PricingCard";
 import { useRecoilValue } from "recoil";
 import { standarPlanState } from "@/atoms/standardPlan";
 import BussinessCard from "./BussinessCard";

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-black/10 mt-10 border-t border-gray-800">
+    <footer className="bg-black/90 mt-10 border-t border-gray-800" id="footer">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -27,12 +27,12 @@ const Footer = () => {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="https://flowbite.com/" className="hover:underline">
-                    Flowbite
+                    Berwoons
                   </a>
                 </li>
                 <li>
                   <a href="https://tailwindcss.com/" className="hover:underline">
-                    Tailwind CSS
+                    Web Developing
                   </a>
                 </li>
               </ul>

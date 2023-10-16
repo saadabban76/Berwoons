@@ -3,11 +3,11 @@
 import React from "react";
 import { RecoilRoot } from "recoil";
 import PlansButton from "./PlansButton";
-import PricingCards from "./PricingCards";
+import PricingCards from "../landing-layouts/PricingCards";
 
 const PricingOptions = () => {
   return (
-    <div className="py-20 flex w-full items-center flex-col justify-evenly">
+    <div className="py-20 flex w-full items-center flex-col justify-evenly" id="plans">
       <RecoilRoot>
         {/* pricing */}
         <h2 className="text-[1.2rem] text-center font-semibold">

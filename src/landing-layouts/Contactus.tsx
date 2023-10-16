@@ -1,14 +1,19 @@
 import Image from "next/image";
 import React from "react";
 import contact from "../../public/assets/contact.png";
+import Reveal from "@/utils/Reveal";
 
 const Contactus = () => {
   return (
-    <main className="bg-white flex py-10 justify-center items-center">
+    <main className="bg-white flex py-10 justify-center items-center" id="contact">
       {/* image */}
-      <div className="bg-black hidden sm:inline-flex flex-[0.9] xl:flex-[0.6] border-4
-       border-[#ECC127]">
-        <Image className="w-full h-full" src={contact} alt="contact" />
+      <div
+        className="bg-black hidden sm:inline-flex flex-[0.9] xl:flex-[0.6] border-4
+       border-[#ECC127]"
+      >
+        <Reveal width="fit-content" showHighlight="transparent">
+          <Image className="w-full h-full" src={contact} alt="contact" />
+        </Reveal>
       </div>
       {/* contact us */}
       <form className="sm:pl-10 py-5 rounded-sm">

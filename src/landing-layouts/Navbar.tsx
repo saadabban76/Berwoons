@@ -20,7 +20,8 @@ const Navbar = () => {
       {/* right navs */}
       <div className="hidden sm:flex space-x-4 items-end justify-center">
         <Link
-          href="/plans"
+          scroll={false}
+          href="#plans"
           className="text-gray-200 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
         >
           Plans
@@ -44,7 +45,8 @@ const Navbar = () => {
           About
         </Link>
         <Link
-          href="/contact"
+          scroll={false}
+          href="#contact"
           className="text-gray-200 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
         >
           Contact
@@ -63,13 +65,14 @@ const Navbar = () => {
         {menuOpen && (
           <div className="bg-black px-5 py-4 absolute top-10 right-5 mt-12 mr-4 z-10">
             <Link
-              href="/plans"
+              
+              href="#plans"
               className="block mb-4 text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               Plans
             </Link>
             <Link
-              href="/services"
+              href="#services"
               className="block mb-4 text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               Services
@@ -87,7 +90,8 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href="/contact"
+              scroll={false}
+              href="/#contact"
               className="block mb-4 text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               Contact

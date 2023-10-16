@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRecoilState } from "recoil";
 
 const PlansButton = () => {
-  const [buttonStatus, setButtonStatus] = useState(false);
+  const [buttonStatus, setButtonStatus] = useState(true);
   const [, setPlan] = useRecoilState(standarPlanState);
   
 return (
