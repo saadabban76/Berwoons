@@ -25,7 +25,8 @@ const PricingCard = (props: CardProps) => {
       className={`relative w-full ${
         props.title === "Most Popular" && "h-[580px] w-[120%]"
       } min-h-[490px] max-w-sm p-4 border border-gray-200 rounded-lg 
-    shadow sm:px-8 sm:py-8 bg-white dark:border-gray-700`}
+    shadow sm:px-8 sm:py-8 bg-white dark:border-gray-700
+    hover:scale-105 transition-all ease-in-out`}
     >
       <h5 className="mb-4 text-xl font-semibold text-black">
         {props.title} plan

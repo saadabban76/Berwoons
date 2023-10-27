@@ -30,7 +30,7 @@ const Contactus = () => {
             id="name"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-[1.3rem] rounded-lg focus:ring-blue-500 focus:border-blue-500
          block w-full p-2.5 dark:bg-transparent dark:placeholder:text-gray-700 pl-6
-          dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          dark:border-gray-600 dark:text-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="john.doe@company.com"
             required
           />
@@ -47,7 +47,7 @@ const Contactus = () => {
             id="email"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-[1.3rem] rounded-lg focus:ring-blue-500 focus:border-blue-500
          block w-full p-2.5 dark:bg-transparent
-          dark:border-gray-600 dark:placeholder:text-gray-700 pl-6 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          dark:border-gray-600 dark:placeholder:text-gray-700 pl-6 dark:text-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="john.doe@company.com"
             required
           />
@@ -62,7 +62,7 @@ const Contactus = () => {
           <input
             type="number"
             id="number"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-[1.3rem] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder:text-gray-700 pl-6 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-[1.3rem] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder:text-gray-700 pl-6 dark:text-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="+91 8303830183"
             required
           />
@@ -76,7 +76,7 @@ const Contactus = () => {
           </label>
           <textarea
             id="overview"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-[1.3rem] rounded-lg focus:ring-blue-500 focus:border-blue-500 block h-[100px] w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder:text-gray-700 pl-6 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-[1.3rem] rounded-lg focus:ring-blue-500 focus:border-blue-500 block h-[100px] w-full p-2.5 dark:bg-transparent dark:border-gray-600 dark:placeholder:text-gray-700 pl-6 dark:text-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="brief details of your project"
             required
           />
