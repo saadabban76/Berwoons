@@ -6,8 +6,8 @@ const Whoweare = () => {
   return (
     <main
       id="whoweare"
-      className="flex relative gap-4 lg:flex-row
-     flex-col xl:pl-52 xl:py-36 py-20 bg-white text-black"
+      className="flex rounded-md relative gap-4 lg:flex-row
+     flex-col pl-12 xl:pl-52 xl:py-36 py-20 bg-white text-black"
     >
       {/* left side */}
       <section className="flex-1 flex flex-col gap-20  items-start">

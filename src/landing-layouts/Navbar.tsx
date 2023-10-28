@@ -38,14 +38,12 @@ const Navbar = () => {
         >
           Services
         </ScrollLink>
-        <ScrollLink
-          to="/how-it-works"
-          duration={1000}
-          smooth={true}
+        <Link
+          href="howitworks"
           className="text-gray-200 cursor-pointer xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
         >
           How it works
-        </ScrollLink>
+        </Link>
         <Link
           href="/about"
           className="text-gray-200 cursor-pointer xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
@@ -91,22 +89,18 @@ const Navbar = () => {
             >
               Services
             </ScrollLink>
-            <ScrollLink
-              duration={1000}
-              smooth={true}
-              to="/how-it-works"
+            <Link
+              href="howitworks"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               How it works
-            </ScrollLink>
-            <ScrollLink
-              duration={1000}
-              smooth={true}
-              to="/about"
+            </Link>
+            <Link
+              href="about"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               About
-            </ScrollLink>
+            </Link>
             <ScrollLink
               duration={1000}
               smooth={true}

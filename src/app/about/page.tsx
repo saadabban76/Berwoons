@@ -37,7 +37,8 @@ const page = () => {
         </div>
       </section>
       {/* middle component */}
-      <section className="p-24 xl:px-56 text-gray-300 text-[1rem] xl:text-[1.1rem]">
+      <section className="sm:p-24 p-12 xl:px-[500px] text-gray-300 
+      text-[1rem] xl:text-[1.1rem]">
         {/* first row */}
         <article className="flex gap-5 flex-wrap justify-between">
           <h2 className="w-[340px] mt-14">
@@ -52,7 +53,7 @@ const page = () => {
             className="w-[300px] h-[360px] rounded-md"
           />
         </article>
-        <article className="flex justify-between items-center mt-10">
+        <article className="flex justify-between space-x-10 items-start mt-10">
           <h2 className="w-[340px]">
             From content creation to marketing strategies, we offer a
             comprehensive suite of services that cater to individual creators,
