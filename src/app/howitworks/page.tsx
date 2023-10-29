@@ -18,7 +18,7 @@ const page = () => {
         {/* choose your plan */}
         <Blocks
           index={1}
-          title="Choose Your Plan"
+          title="Choose Your Plan : "
           description="Start by selecting the right plan for your needs or consuit with us for
         personalized guidance. You have the fexibility to change your plan
         anytime."
@@ -27,18 +27,21 @@ const page = () => {
         <Blocks
           index={2}
           title="Collaborative Group Chat : "
-          description="Start by selecting the right plan for your needs or consuit with us for
-        personalized guidance. You have the fexibility to change your plan
-        anytime."
+          description="Whether you're an individual 
+          creator, a brand, or a company we'll set up a dedicated group chat that includes you, our creators, and, if needed, an HR representative. This ensures seamless communication and close collaboration."
           //   description={`Whether you${"'"}re an individual creator, a brand or a comp`}
           image={two}
         />
         <Blocks
           index={3}
-          title="Choose Your Plan"
-          description="Start by selecting the right plan for your needs or consuit with us for
-        personalized guidance. You have the fexibility to change your plan
-        anytime."
+          title="Weekly Project Updates : "
+          description="Stay informed with weekly 
+          updates on project progress, 
+          creative insights, and 
+          opportunities for your input. 
+          Your satisfaction is our top priority, 
+          and we're committed to delivering 
+          excellence every step of the way."
           image={three}
         />
       </section>

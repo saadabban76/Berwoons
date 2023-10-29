@@ -30,14 +30,12 @@ const Navbar = () => {
             Plans
           </ScrollLink>
         </span>
-        <ScrollLink
-          to="whatwedo"
-          duration={1000}
-          smooth={true}
+        <Link
+          href="services"
           className="text-gray-200 cursor-pointer xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
         >
           Services
-        </ScrollLink>
+        </Link>
         <Link
           href="howitworks"
           className="text-gray-200 cursor-pointer xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
@@ -50,14 +48,13 @@ const Navbar = () => {
         >
           About
         </Link>
-        <ScrollLink
-          to="contact"
-          duration={1000}
-          smooth={true}
+        <Link
+          href="contact"
+          scroll={false}
           className="text-gray-200 cursor-pointer xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
         >
           Contact
-        </ScrollLink>
+        </Link>
       </div>
       {/* hamburger menu */}
       <div className="sm:hidden">
@@ -81,14 +78,12 @@ const Navbar = () => {
             >
               Plans
             </ScrollLink>
-            <ScrollLink
-              duration={1000}
-              smooth={true}
-              to="whatwedo"
+            <Link
+              href="services"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               Services
-            </ScrollLink>
+            </Link>
             <Link
               href="howitworks"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
@@ -101,14 +96,12 @@ const Navbar = () => {
             >
               About
             </Link>
-            <ScrollLink
-              duration={1000}
-              smooth={true}
-              to="contact"
+            <Link
+              href="contact"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               Contact
-            </ScrollLink>
+            </Link>
           </div>
         )}
       </div>
