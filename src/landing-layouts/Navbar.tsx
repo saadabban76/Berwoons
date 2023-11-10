@@ -19,7 +19,7 @@ const Navbar = () => {
         <h2 className="sm:inline-flex hidden text-[1.3rem]">Viral Pit</h2>
       </Link>
       {/* right navs */}
-      <div className="hidden sm:flex space-x-4 items-end justify-center">
+      <div className="hidden sm:flex space-x-10 items-end justify-center">
         <span>
           <ScrollLink
             duration={1000}

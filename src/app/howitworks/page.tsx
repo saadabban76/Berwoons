@@ -14,7 +14,7 @@ const page = () => {
       <h1 className="w-[240px] text-gray-100 xl:w-[280px] font-semibold text-[1.9rem] xl:text-[2.1rem]">
         Basically, it works like this
       </h1>
-      <section className="flex justify-start sm:flex-row flex-col">
+      <section className="mx-auto flex justify-start sm:flex-row flex-col">
         {/* choose your plan */}
         <Blocks
           index={1}
@@ -45,10 +45,10 @@ const page = () => {
           image={three}
         />
       </section>
-      <p className="text-[0.9rem] text-gray-200">
+      {/* <p className="text-[0.9rem] text-gray-200">
         Wish Viral Pit. You{"'"}re an essential part of our creative process.
         Let{"'"}s create something extraordiniary together.{" "}
-      </p>
+      </p> */}
       <section
         className="w-full border-y cursor-pointer
           flex justify-center p-4 mt-4 mb-5 border-gray-400 text-highlight 
