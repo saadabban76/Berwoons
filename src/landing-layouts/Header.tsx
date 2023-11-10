@@ -23,15 +23,13 @@ export const Header = () => {
           <h2 className="text-inherit inline-block">
             Struggling To Go Viral ?
           </h2>
-          <Reveal width="fit-content" showHighlight={"gray"} 
-          >
+      
             <h2 className="text-inherit">
               You{"'"}re in the Right Place
-              <span className="absolute -right-4 bottom-3 z-10 inline-block w-5 h-5 text-[2rem]  rounded-full bg-highlight">
+              {/* <span className="absolute -right-4 bottom-3 z-10 inline-block w-5 h-5 text-[2rem]  rounded-full bg-highlight">
                 !
-              </span>
+              </span> */}
             </h2>
-          </Reveal>
         </div>
         <button
           className="inline-block hover:bg-black hover:text-highlight bg-highlight 

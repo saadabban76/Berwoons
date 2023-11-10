@@ -21,14 +21,12 @@ const Navbar = () => {
       {/* right navs */}
       <div className="hidden sm:flex space-x-10 items-end justify-center">
         <span>
-          <ScrollLink
-            duration={1000}
-            smooth={true}
-            to="plans"
+          <Link
+            href="/#plans"
             className="text-gray-200 cursor-pointer xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
           >
             Plans
-          </ScrollLink>
+          </Link>
         </span>
         <Link
           href="services"
@@ -70,14 +68,12 @@ const Navbar = () => {
         </button>
         {menuOpen && (
           <div className="bg-black px-5 py-4 absolute top-10 right-5 mt-12 mr-4 z-10">
-            <ScrollLink
-              duration={1000}
-              smooth={true}
-              to="plans"
+            <Link
+              href="#plans"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
             >
               Plans
-            </ScrollLink>
+            </Link>
             <Link
               href="services"
               className="block mb-4 cursor-pointer text-gray-200 border-b border-gray-700 py-3 px-5 xl:text-[1.4rem] hover:text-highlight text-[1.2rem]"
