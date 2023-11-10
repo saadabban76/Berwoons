@@ -14,7 +14,12 @@ import ServicesButton from "./ServicesButton";
 const Whatwedo = () => {
   return (
     <main className="flex flex-col space-y-8 py-8" id="whatwedo">
-      <h1 className="text-[1.9rem] xl:text-[2.2rem]">What We Do</h1>
+         <h1
+          className="self-start ml-4 text-center xl:text-[4.5rem] text-[3.2rem] 
+         font-semibold"
+        >
+          WHAT WE DO{" "}
+        </h1>
         <section
           className="flex gap-6 xl:justify-evenly flex-grow
       sm:justify-start justify-center flex-wrap"

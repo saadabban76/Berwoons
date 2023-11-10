@@ -11,7 +11,7 @@ const PricingCards = () => {
       {standardPlan ? (
         <>
           <PricingCard title="Standard" price={199} />
-          <PricingCard title="Most Popular" price={499} />
+          <PricingCard title="MostPopular" price={499} />
           <PricingCard title="Custom" price={"Single or Monthly Services"} />
         </>
       ) : (

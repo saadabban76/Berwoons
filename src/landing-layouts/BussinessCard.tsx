@@ -1,4 +1,5 @@
 import Reveal from "@/utils/Reveal";
+import Link from "next/link";
 import React from "react";
 
 interface CardProps {
@@ -98,7 +99,8 @@ const BussinessCard = (props: CardProps) => {
           </li>
         </ul>
       </Reveal>
-      <button
+      <Link
+        href={`/plans/${props.title}`}
         type="button"
         className="absolute left-10 -bottom-5 text-black bg-highlight 
         shadow-2xl hover:shadow-xl  hover:translate-y-1 transition-all ease-in-out
@@ -106,7 +108,7 @@ const BussinessCard = (props: CardProps) => {
          text-sm px-2 py-2.5 inline-flex justify-center w-3/4 text-center"
       >
         Choose plan
-      </button>
+      </Link>
     </div>
   );
 };
